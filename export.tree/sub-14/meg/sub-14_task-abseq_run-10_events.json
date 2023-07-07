@@ -1,0 +1,32 @@
+{"SequenceID": {
+        "LongName": " This is the number of the sequence",
+        "Description": "[Repeat, Alternate, Pairs, Quadruplets, Pairs+Alt, Shrinking, Complex]",
+        "Levels": {"1": "1","7": "7"}
+},
+    "RunNumber": {
+        "Description": "This is the run number",
+        "Levels": {"1":"1","14":"14"}
+    },
+    "StimPosition": {
+        "Description": "The position of item (sound) in the 16-item sequence",
+        "LongName": "Stimulus position",
+        "Levels": {"1": "1","16": "16"}
+    },
+    "StimID": {
+        "Description": "A or B, according to if the sound is low pitch or high pitch",
+        "LongName": "Stimulus Identity"
+    },
+    "ViolationOrNot": {
+        "Description": "Does the trial correspond to a deviant or not ?",
+        "LongName": "Is the trial a deviant ? 0 - No, 1 - Yes",
+        "Levels":{"Not deviant" : "0", "deviant" : "1"}
+    },
+    "Complexity": {
+        "Description": "The complexity of the sequence provided by the LoT",
+        "LongName": "Sequence Complexity",
+        "Levels":{"Repeat": "4", "Alternate": "6", "Pairs": "6", "Quadruplets": "6", "Pairs+Alt": "12", "Shrinking": "15", "Complex": "28"}
+    },
+    "ViolationInSequence": {
+        "Description": "Does the whole presented 16 item sequence contain a violation ?",
+        "LongName": "Is there a violation in the sequence ?"
+    }}
